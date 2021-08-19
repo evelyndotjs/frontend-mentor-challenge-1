@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/*=========Container=========*/
+
+.col-md-6 {
+  padding: 0;
+}
+
+.main {
+  background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.main-content-wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+/*=========Images=========*/
+
+.main-banner {
+  width: 100%;
+}
+
+.logo {
+  width: 55%;
+  padding: 10%;
+}
+
+/*=========Typography=========*/
+
+h1 {
+  font-size: 3.5rem;
+  margin-top: 15%;
+}
+
+.we-text {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+.main-text {
+  color: hsl(0, 36%, 70%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2;
+  margin: 5% 0;
+}
+
+.coming-soon-text {
+  font-weight: 600;
+  letter-spacing: 20px;
+}
+
+/*=========Email Bar=========*/
+
+.email {
+  border: 2px solid hsl(0, 93%, 68%);
+  border-radius: 10px;
+  width: 90%;
+  font-size: 0.8rem;
+  padding: 3%;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border: 2px solid hsl(0, 80%, 86%);
+  border-radius: 25px;
+  background-image: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%),
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+}
+
+.blank-error,
+.valid-error {
+  font-size: 0.8rem;
+  color: hsl(0, 93%, 68%);
+  position: absolute;
+  display: none;
+}
